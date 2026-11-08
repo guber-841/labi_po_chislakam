@@ -5,8 +5,10 @@
 
 ### Сборка 
 
+``` bash
 cmake -S . -B build -G Ninja -DCMAKE_CXX_COMPILER=g++ -DCMAKE_BUILD_TYPE=Debug
 cmake --build build && ./build/laba.exe
+```
 
 ### Реализация
 
